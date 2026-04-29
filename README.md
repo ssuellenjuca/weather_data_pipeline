@@ -135,7 +135,7 @@ Backend:  http://31.97.170.27:5000
 
 O deploy utiliza containers para PostgreSQL, Flask e Nginx.
 
-Observação: o deploy foi feito em HTTP, sem certificado SSL, por se tratar de uma entrega acadêmica.
+Observação: o deploy foi feito em HTTP, sem certificado SSL, por se tratar de uma entrega avaliativa rápida.
 
 Observações sobre os dados: 
 - Nesta versão, o pipeline coleta dados meteorológicos recentes da API Open-Meteo. A ingestão é executada sob demanda pelo script: python backend/ingest.py
